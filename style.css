@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+
+body {
+  padding: 20px;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  background: linear-gradient(90deg, #FC466B 0%, #3F5EFB 100%);
+}
+
+main {
+  width: 80%;
+  height: auto;
+  background-color: white;
+  border-radius: 20px;
+  font-family: 'Raleway', sans-serif;
+}
+
+h1 {
+  margin: 0;
+  color: white;
+  text-transform: capitalize;
+  font-family: 'Raleway', sans-serif;
+  letter-spacing: 3px;
+}
+
+.header {
+  margin: 0;
+  text-align: center;
+  padding: 10px;
+  background: linear-gradient(90deg, #00C9FF 0%, #92FE9D 100%);
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+}
+
+.title-container {
+  display: flex;
+  justify-content: center;
+  margin: 10px 0 5px 0;
+}
+
+.select-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.title-container label {
+  width: 90px;
+  margin: 0 5px;
+  text-align: center;
+  background-color: #f0fff0;
+  border-radius: 5px;
+}
+
+.select-container select {
+  width: 90px;
+  margin: 0 5px;
+  border:  1px solid #e6e5e5;
+  border-radius: 5px;
+  padding: 5px;
+}
+
+.estilo-resultado {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.estilo-resultado h3 {
+  margin: 20px 0 10px 0;
+  text-decoration: underline 2px #f0fff0;
+}
+
+#resultadoContainer {
+  margin-bottom: 20px;
+}
+
+#resultadoContainer p {
+  background-color: #f0fff0;
+  text-align: center;
+  padding: 2px;
+  border-radius: 5px;
+}
+
+.alerta {
+  background-color: #fff0f5;
+  padding: 10px;
+  border-radius: 5px;
+  text-transform: uppercase;
+  font-weight: bold;
+}
